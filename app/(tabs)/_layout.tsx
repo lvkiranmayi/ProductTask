@@ -1,35 +1,91 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
+import { Tabs } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+import { useWishlist } from "../../context/WishlistContext";
+import { useCart } from "../../redux/CartProvider";
 
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+export default function TabsLayout() {
+  const { wishlist } = useWishlist();
+  const { cart } = useCart();
+  const badgeCount = wishlist.length;
+  const cartCount = cart.totalItems;
 
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
+        tabBarActiveTintColor: "#7C5FFF",
+        tabBarInactiveTintColor: "#7C7CB0",
+        tabBarStyle: {
+          backgroundColor: "#ffffff",
+          borderTopColor: "#EDE8FF",
+          height: 60,
+          paddingBottom: 8,
+          paddingTop: 6,
+        },
+        tabBarLabelStyle: {
+          fontSize: 11,
+          fontWeight: "600",
+        },
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: "Shop",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="bag-outline" size={size} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="search"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: "Search",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="search-outline" size={size} color={color} />
+          ),
         }}
       />
+      <Tabs.Screen
+        name="wishlist"
+        options={{
+          title: "Wishlist",
+          tabBarBadge: badgeCount > 0 ? badgeCount : undefined,
+          tabBarBadgeStyle: { backgroundColor: "#F0A0D8", fontSize: 10 },
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons
+              name={badgeCount > 0 ? "heart" : "heart-outline"}
+              size={size}
+              color={badgeCount > 0 ? "#F0A0D8" : color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: "Profile",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="person-outline" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="cart"
+        options={{
+          title: "Cart",
+          tabBarBadge: cartCount > 0 ? cartCount : undefined,
+          tabBarBadgeStyle: { backgroundColor: "#7C5FFF", fontSize: 10 },
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons
+              name={cartCount > 0 ? "cart" : "cart-outline"}
+              size={size}
+              color={cartCount > 0 ? "#7C5FFF" : color}
+            />
+          ),
+        }}
+      />
+      <Tabs.Screen name="explore" options={{ href: null }} />
     </Tabs>
   );
 }

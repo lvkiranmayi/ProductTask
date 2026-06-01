@@ -1,29 +1,24 @@
-import { Link } from 'expo-router';
-import { StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity } from "react-native";
+import { router } from "expo-router";
 
-import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
-
-export default function ModalScreen() {
+export default function Modal() {
   return (
-    <ThemedView style={styles.container}>
-      <ThemedText type="title">This is a modal</ThemedText>
-      <Link href="/" dismissTo style={styles.link}>
-        <ThemedText type="link">Go to home screen</ThemedText>
-      </Link>
-    </ThemedView>
+    <View className="flex-1 items-center justify-center bg-white dark:bg-black p-6">
+      <Text className="text-2xl font-bold text-black dark:text-white mb-4">
+        About TaskManager
+      </Text>
+      <Text className="text-gray-600 dark:text-gray-400 text-center mb-8">
+        A simple task manager app built with Expo, NativeWind, and expo-router.
+      </Text>
+      <TouchableOpacity
+        onPress={() => router.back()}
+        className="bg-red-400 px-6 py-3 rounded-lg"
+      >
+        <Text className="text-white font-bold">Close</Text>
+      </TouchableOpacity>
+    </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 20,
-  },
-  link: {
-    marginTop: 15,
-    paddingVertical: 15,
-  },
-});
+
+    

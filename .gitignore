@@ -33,6 +33,9 @@ yarn-error.*
 # local env files
 .env*.local
 
+# Firebase credentials — contains real API keys, never commit
+lib/firebase.ts
+
 # typescript
 *.tsbuildinfo
 
