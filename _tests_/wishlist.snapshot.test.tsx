@@ -44,6 +44,7 @@ jest.mock("../hooks/useNetworkStatus", () => ({
 // ── Imports ───────────────────────────────────────────────────────────────────
 
 import { jest, describe, it, afterEach, expect } from "@jest/globals";
+import type { Mock } from "jest-mock";
 import React from "react";
 import { render } from "@testing-library/react-native";
 import WishlistScreen from "../app/(tabs)/wishlist";
@@ -72,12 +73,12 @@ const mockProduct2 = {
   image:    "https://example.com/dress.jpg",
 };
 
-function setMocks(wishlist: typeof mockProduct1[], isOnline = true) {
-  (useWishlist as jest.Mock).mockReturnValue({
+function setMocks(wishlist: { id: string; name: string; price: number; rating: number; badge: "NEW" | "SALE" | null; category: string; image: string }[], isOnline = true) {
+  (useWishlist as Mock).mockReturnValue({
     wishlist,
     toggleWishlist: mockToggleWishlist,
   });
-  (useNetworkStatus as jest.Mock).mockReturnValue({ isOnline });
+  (useNetworkStatus as Mock).mockReturnValue({ isOnline });
 }
 
 // ── Tests ─────────────────────────────────────────────────────────────────────
