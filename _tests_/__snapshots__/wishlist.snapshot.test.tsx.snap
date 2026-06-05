@@ -1,0 +1,1740 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wishlist Screen — Snapshots renders empty wishlist state 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#F6F3FF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        0
+         
+        items
+         saved
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 3,
+          }
+        }
+      >
+        <Ionicons
+          color="#22C55E"
+          name="checkmark-circle"
+          size={13}
+        />
+        <Text
+          style={
+            {
+              "color": "#22C55E",
+              "fontSize": 12,
+              "fontWeight": "600",
+            }
+          }
+        >
+          synced
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -0.5,
+        }
+      }
+    >
+      Wishlist
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingBottom": 80,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#EDE8FF",
+          "borderRadius": 40,
+          "height": 80,
+          "justifyContent": "center",
+          "marginBottom": 16,
+          "width": 80,
+        }
+      }
+    >
+      <Ionicons
+        color="#A78BFA"
+        name="heart-outline"
+        size={36}
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 6,
+        }
+      }
+    >
+      Nothing saved yet
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#7C7CB0",
+          "fontSize": 13,
+          "paddingHorizontal": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Tap the heart icon on any product to save it here
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Wishlist Screen — Snapshots renders offline status 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#F6F3FF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        1
+         
+        item
+         saved
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 3,
+          }
+        }
+      >
+        <Ionicons
+          color="#92400E"
+          name="cloud-offline-outline"
+          size={13}
+        />
+        <Text
+          style={
+            {
+              "color": "#92400E",
+              "fontSize": 12,
+              "fontWeight": "600",
+            }
+          }
+        >
+          offline
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -0.5,
+        }
+      }
+    >
+      Wishlist
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "flexDirection": "row",
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#EDE8FF",
+              "height": 100,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            contentFit="cover"
+            source={
+              {
+                "uri": "https://example.com/ring.jpg",
+              }
+            }
+            style={
+              {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+            transition={300}
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#7C5FFF",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "letterSpacing": 1,
+                "marginBottom": 4,
+              }
+            }
+          >
+            JEWELLERY
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#1E1B4B",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 6,
+              }
+            }
+          >
+            Amethyst Ring
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1E1B4B",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              ₹
+              3,999
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#EDE8FF",
+                  "borderRadius": 10,
+                  "paddingHorizontal": 6,
+                  "paddingVertical": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FDE8F5",
+              "borderRadius": 15,
+              "height": 30,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 10,
+              "top": 10,
+              "width": 30,
+            }
+          }
+        >
+          <Ionicons
+            color="#F0A0D8"
+            name="heart"
+            size={15}
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        1
+         
+        item
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        3,999
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹199
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        4,198
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Proceed to Payment · ₹
+        4,198
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Wishlist Screen — Snapshots renders wishlist with multiple items and free delivery 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#F6F3FF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        2
+         
+        items
+         saved
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 3,
+          }
+        }
+      >
+        <Ionicons
+          color="#22C55E"
+          name="checkmark-circle"
+          size={13}
+        />
+        <Text
+          style={
+            {
+              "color": "#22C55E",
+              "fontSize": 12,
+              "fontWeight": "600",
+            }
+          }
+        >
+          synced
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -0.5,
+        }
+      }
+    >
+      Wishlist
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "flexDirection": "row",
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#EDE8FF",
+              "height": 100,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            contentFit="cover"
+            source={
+              {
+                "uri": "https://example.com/ring.jpg",
+              }
+            }
+            style={
+              {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+            transition={300}
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#7C5FFF",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "letterSpacing": 1,
+                "marginBottom": 4,
+              }
+            }
+          >
+            JEWELLERY
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#1E1B4B",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 6,
+              }
+            }
+          >
+            Amethyst Ring
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1E1B4B",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              ₹
+              3,999
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#EDE8FF",
+                  "borderRadius": 10,
+                  "paddingHorizontal": 6,
+                  "paddingVertical": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FDE8F5",
+              "borderRadius": 15,
+              "height": 30,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 10,
+              "top": 10,
+              "width": 30,
+            }
+          }
+        >
+          <Ionicons
+            color="#F0A0D8"
+            name="heart"
+            size={15}
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "flexDirection": "row",
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#EDE8FF",
+              "height": 100,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            contentFit="cover"
+            source={
+              {
+                "uri": "https://example.com/dress.jpg",
+              }
+            }
+            style={
+              {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+            transition={300}
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#7C5FFF",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "letterSpacing": 1,
+                "marginBottom": 4,
+              }
+            }
+          >
+            APPAREL
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#1E1B4B",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 6,
+              }
+            }
+          >
+            Silk Wrap Dress
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1E1B4B",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              ₹
+              5,500
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#FDE8F5",
+                  "borderRadius": 10,
+                  "paddingHorizontal": 6,
+                  "paddingVertical": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#F0A0D8",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                SALE
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FDE8F5",
+              "borderRadius": 15,
+              "height": 30,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 10,
+              "top": 10,
+              "width": 30,
+            }
+          }
+        >
+          <Ionicons
+            color="#F0A0D8"
+            name="heart"
+            size={15}
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        2
+         
+        items
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        9,499
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#34D399",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        FREE
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        9,499
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Proceed to Payment · ₹
+        9,499
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Wishlist Screen — Snapshots renders wishlist with one item and paid delivery 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#F6F3FF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "gap": 6,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        1
+         
+        item
+         saved
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 3,
+          }
+        }
+      >
+        <Ionicons
+          color="#22C55E"
+          name="checkmark-circle"
+          size={13}
+        />
+        <Text
+          style={
+            {
+              "color": "#22C55E",
+              "fontSize": 12,
+              "fontWeight": "600",
+            }
+          }
+        >
+          synced
+        </Text>
+      </View>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -0.5,
+        }
+      }
+    >
+      Wishlist
+    </Text>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "flexDirection": "row",
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#EDE8FF",
+              "height": 100,
+              "width": 100,
+            }
+          }
+        >
+          <Image
+            contentFit="cover"
+            source={
+              {
+                "uri": "https://example.com/ring.jpg",
+              }
+            }
+            style={
+              {
+                "height": "100%",
+                "width": "100%",
+              }
+            }
+            transition={300}
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#7C5FFF",
+                "fontSize": 9,
+                "fontWeight": "bold",
+                "letterSpacing": 1,
+                "marginBottom": 4,
+              }
+            }
+          >
+            JEWELLERY
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              {
+                "color": "#1E1B4B",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 6,
+              }
+            }
+          >
+            Amethyst Ring
+          </Text>
+          <View
+            style={
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "gap": 4,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1E1B4B",
+                  "fontSize": 15,
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              ₹
+              3,999
+            </Text>
+            <View
+              style={
+                {
+                  "backgroundColor": "#EDE8FF",
+                  "borderRadius": 10,
+                  "paddingHorizontal": 6,
+                  "paddingVertical": 2,
+                }
+              }
+            >
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                NEW
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#FDE8F5",
+              "borderRadius": 15,
+              "height": 30,
+              "justifyContent": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "right": 10,
+              "top": 10,
+              "width": 30,
+            }
+          }
+        >
+          <Ionicons
+            color="#F0A0D8"
+            name="heart"
+            size={15}
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        1
+         
+        item
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        3,999
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹199
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        4,198
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Proceed to Payment · ₹
+        4,198
+      </Text>
+    </View>
+  </View>
+</View>
+`;

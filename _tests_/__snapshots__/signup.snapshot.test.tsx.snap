@@ -1,0 +1,1303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp Screen — Snapshots renders Create Account button 1`] = `
+<View
+  className="flex-1 bg-[#F6F3FF]"
+  onLayout={[Function]}
+  style={
+    {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    className="absolute inset-0"
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  />
+  <View
+    className="absolute -top-[100px] -right-[80px] w-[300px] h-[300px] rounded-full bg-[#EDE8FF] opacity-80"
+  />
+  <View
+    className="absolute -bottom-[80px] -left-[60px] w-[260px] h-[260px] rounded-full bg-[#D4CBFF] opacity-[0.45]"
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        className="flex-1 px-6 pt-14 pb-10"
+      >
+        <View
+          className="items-center mb-8"
+        >
+          <View
+            className="w-[72px] h-[72px] rounded-[22px] bg-[#7C5FFF] items-center justify-center mb-4"
+            style={
+              {
+                "elevation": 12,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Ionicons
+              color="#fff"
+              name="sparkles"
+              size={32}
+            />
+          </View>
+          <Text
+            className="text-[28px] font-bold text-[#1E1B4B] tracking-[6px]"
+          >
+            mira
+          </Text>
+          <Text
+            className="text-[13px] text-[#7C7CB0] mt-1 tracking-wide"
+          >
+            Create your account
+          </Text>
+        </View>
+        <View
+          className="gap-4"
+        >
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Full Name
+            </Text>
+            <TextInput
+              autoCapitalize="words"
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Kiran Mayi"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Email
+            </Text>
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              keyboardType="email-address"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="you@example.com"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Min. 8 characters"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="next"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Confirm Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Re-enter password"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="done"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 12,
+                "opacity": 1,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Text
+              className="text-white font-bold text-[16px] tracking-widest"
+            >
+              Create Account
+            </Text>
+          </View>
+          <View
+            className="flex-row items-center gap-3"
+          >
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+            <Text
+              className="text-[#7C7CB0] text-[12px] tracking-widest uppercase"
+            >
+              or
+            </Text>
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 3,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.06,
+                "shadowRadius": 8,
+              }
+            }
+          >
+            <FontAwesome
+              color="#EA4335"
+              name="google"
+              size={20}
+            />
+            <Text
+              className="text-[#1E1B4B] font-semibold text-[15px]"
+            >
+              Sign up with Google
+            </Text>
+          </View>
+          <View
+            className="flex-row justify-center items-center gap-1 mt-1"
+          >
+            <Text
+              className="text-[14px] text-[#7C7CB0]"
+            >
+              Already have an account?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                className="text-[14px] text-[#7C5FFF] font-semibold"
+              >
+                 Sign in
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`SignUp Screen — Snapshots renders default empty state 1`] = `
+<View
+  className="flex-1 bg-[#F6F3FF]"
+  onLayout={[Function]}
+  style={
+    {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    className="absolute inset-0"
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  />
+  <View
+    className="absolute -top-[100px] -right-[80px] w-[300px] h-[300px] rounded-full bg-[#EDE8FF] opacity-80"
+  />
+  <View
+    className="absolute -bottom-[80px] -left-[60px] w-[260px] h-[260px] rounded-full bg-[#D4CBFF] opacity-[0.45]"
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        className="flex-1 px-6 pt-14 pb-10"
+      >
+        <View
+          className="items-center mb-8"
+        >
+          <View
+            className="w-[72px] h-[72px] rounded-[22px] bg-[#7C5FFF] items-center justify-center mb-4"
+            style={
+              {
+                "elevation": 12,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Ionicons
+              color="#fff"
+              name="sparkles"
+              size={32}
+            />
+          </View>
+          <Text
+            className="text-[28px] font-bold text-[#1E1B4B] tracking-[6px]"
+          >
+            mira
+          </Text>
+          <Text
+            className="text-[13px] text-[#7C7CB0] mt-1 tracking-wide"
+          >
+            Create your account
+          </Text>
+        </View>
+        <View
+          className="gap-4"
+        >
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Full Name
+            </Text>
+            <TextInput
+              autoCapitalize="words"
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Kiran Mayi"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Email
+            </Text>
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              keyboardType="email-address"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="you@example.com"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Min. 8 characters"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="next"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Confirm Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Re-enter password"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="done"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 12,
+                "opacity": 1,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Text
+              className="text-white font-bold text-[16px] tracking-widest"
+            >
+              Create Account
+            </Text>
+          </View>
+          <View
+            className="flex-row items-center gap-3"
+          >
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+            <Text
+              className="text-[#7C7CB0] text-[12px] tracking-widest uppercase"
+            >
+              or
+            </Text>
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 3,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.06,
+                "shadowRadius": 8,
+              }
+            }
+          >
+            <FontAwesome
+              color="#EA4335"
+              name="google"
+              size={20}
+            />
+            <Text
+              className="text-[#1E1B4B] font-semibold text-[15px]"
+            >
+              Sign up with Google
+            </Text>
+          </View>
+          <View
+            className="flex-row justify-center items-center gap-1 mt-1"
+          >
+            <Text
+              className="text-[14px] text-[#7C7CB0]"
+            >
+              Already have an account?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                className="text-[14px] text-[#7C5FFF] font-semibold"
+              >
+                 Sign in
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`SignUp Screen — Snapshots renders with firebase error banner visible 1`] = `
+<View
+  className="flex-1 bg-[#F6F3FF]"
+  onLayout={[Function]}
+  style={
+    {
+      "paddingBottom": 0,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessible={true}
+    className="absolute inset-0"
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+  />
+  <View
+    className="absolute -top-[100px] -right-[80px] w-[300px] h-[300px] rounded-full bg-[#EDE8FF] opacity-80"
+  />
+  <View
+    className="absolute -bottom-[80px] -left-[60px] w-[260px] h-[260px] rounded-full bg-[#D4CBFF] opacity-[0.45]"
+  />
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+    showsVerticalScrollIndicator={false}
+  >
+    <View>
+      <View
+        className="flex-1 px-6 pt-14 pb-10"
+      >
+        <View
+          className="items-center mb-8"
+        >
+          <View
+            className="w-[72px] h-[72px] rounded-[22px] bg-[#7C5FFF] items-center justify-center mb-4"
+            style={
+              {
+                "elevation": 12,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Ionicons
+              color="#fff"
+              name="sparkles"
+              size={32}
+            />
+          </View>
+          <Text
+            className="text-[28px] font-bold text-[#1E1B4B] tracking-[6px]"
+          >
+            mira
+          </Text>
+          <Text
+            className="text-[13px] text-[#7C7CB0] mt-1 tracking-wide"
+          >
+            Create your account
+          </Text>
+        </View>
+        <View
+          className="gap-4"
+        >
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Full Name
+            </Text>
+            <TextInput
+              autoCapitalize="words"
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="Kiran Mayi"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Email
+            </Text>
+            <TextInput
+              autoCapitalize="none"
+              autoCorrect={false}
+              className="bg-white rounded-2xl px-4 h-[52px] text-[#1E1B4B] text-[15px] border border-[#D4CBFF]"
+              keyboardType="email-address"
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              placeholder="you@example.com"
+              placeholderTextColor="#B0A8D9"
+              returnKeyType="next"
+              value=""
+            />
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Min. 8 characters"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="next"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            className="gap-[6px]"
+          >
+            <Text
+              className="text-[13px] font-semibold text-[#1E1B4B] tracking-wide ml-1"
+            >
+              Confirm Password
+            </Text>
+            <View
+              className="flex-row bg-white rounded-2xl px-4 h-[52px] items-center border border-[#D4CBFF]"
+            >
+              <TextInput
+                autoCapitalize="none"
+                autoCorrect={false}
+                className="flex-1 text-[#1E1B4B] text-[15px]"
+                onBlur={[Function]}
+                onChangeText={[Function]}
+                onSubmitEditing={[Function]}
+                placeholder="Re-enter password"
+                placeholderTextColor="#B0A8D9"
+                returnKeyType="done"
+                secureTextEntry={true}
+                value=""
+              />
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#7C7CB0"
+                  name="eye-outline"
+                  size={20}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 12,
+                "opacity": 1,
+                "shadowColor": "#7C5FFF",
+                "shadowOffset": {
+                  "height": 8,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.4,
+                "shadowRadius": 16,
+              }
+            }
+          >
+            <Text
+              className="text-white font-bold text-[16px] tracking-widest"
+            >
+              Create Account
+            </Text>
+          </View>
+          <View
+            className="flex-row items-center gap-3"
+          >
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+            <Text
+              className="text-[#7C7CB0] text-[12px] tracking-widest uppercase"
+            >
+              or
+            </Text>
+            <View
+              className="flex-1 h-[1px] bg-[#D4CBFF]"
+            />
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "elevation": 3,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.06,
+                "shadowRadius": 8,
+              }
+            }
+          >
+            <FontAwesome
+              color="#EA4335"
+              name="google"
+              size={20}
+            />
+            <Text
+              className="text-[#1E1B4B] font-semibold text-[15px]"
+            >
+              Sign up with Google
+            </Text>
+          </View>
+          <View
+            className="flex-row justify-center items-center gap-1 mt-1"
+          >
+            <Text
+              className="text-[14px] text-[#7C7CB0]"
+            >
+              Already have an account?
+            </Text>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "opacity": 1,
+                }
+              }
+            >
+              <Text
+                className="text-[14px] text-[#7C5FFF] font-semibold"
+              >
+                 Sign in
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

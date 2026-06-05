@@ -1,0 +1,2424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart Screen — Snapshots renders cart restored banner 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "backgroundColor": "#F6F3FF",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        1
+         
+        item
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 28,
+            "fontWeight": "bold",
+            "letterSpacing": -0.5,
+          }
+        }
+      >
+        Cart
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#FDE8F5",
+          "borderRadius": 14,
+          "opacity": 1,
+          "paddingHorizontal": 14,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#F0A0D8",
+            "fontSize": 12,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Clear all
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#EDE8FF",
+        "flexDirection": "row",
+        "gap": 10,
+        "paddingHorizontal": 16,
+        "paddingVertical": 10,
+      }
+    }
+  >
+    <Ionicons
+      color="#7C5FFF"
+      name="refresh-circle-outline"
+      size={18}
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 13,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Cart restored
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 11,
+          }
+        }
+      >
+        Your items from last session are back
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={
+        {
+          "bottom": 8,
+          "left": 8,
+          "right": 8,
+          "top": 8,
+        }
+      }
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+    >
+      <Ionicons
+        color="#B0A8D9"
+        name="close"
+        size={16}
+      />
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 12,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#EDE8FF",
+                "height": 120,
+                "width": 100,
+              }
+            }
+          >
+            <Image
+              contentFit="cover"
+              source={
+                {
+                  "uri": "https://example.com/ring.jpg",
+                }
+              }
+              style={
+                {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+              transition={300}
+            />
+          </View>
+          <View
+            style={
+              {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "padding": 12,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                    "letterSpacing": 1,
+                    "marginBottom": 2,
+                  }
+                }
+              >
+                JEWELLERY
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                Amethyst Ring
+              </Text>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "gap": 4,
+                    "marginTop": 3,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#B0A8D9"
+                  name="time-outline"
+                  size={11}
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#B0A8D9",
+                      "fontSize": 11,
+                    }
+                  }
+                >
+                  Added 
+                  just now
+                </Text>
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 15,
+                    "fontWeight": "bold",
+                    "marginTop": 4,
+                  }
+                }
+              >
+                ₹
+                3,999
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "gap": 12,
+                  "marginTop": 8,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FDE8F5",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrement-j1"
+              >
+                <Ionicons
+                  color="#F0A0D8"
+                  name="trash-outline"
+                  size={16}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "minWidth": 20,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                1
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#7C5FFF",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increment-j1"
+              >
+                <Ionicons
+                  color="white"
+                  name="add"
+                  size={16}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FDE8F5",
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "right": 10,
+                "top": 10,
+                "width": 28,
+              }
+            }
+            testID="remove-j1"
+          >
+            <Ionicons
+              color="#F0A0D8"
+              name="close"
+              size={14}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        1
+         
+        item
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        3,999
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹199
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        4,198
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Checkout · ₹
+        4,198
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#7C7CB0",
+          "fontSize": 12,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add ₹
+      1,001
+       more for FREE delivery
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Cart Screen — Snapshots renders cart with multiple items and free delivery 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "backgroundColor": "#F6F3FF",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        2
+         
+        items
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 28,
+            "fontWeight": "bold",
+            "letterSpacing": -0.5,
+          }
+        }
+      >
+        Cart
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#FDE8F5",
+          "borderRadius": 14,
+          "opacity": 1,
+          "paddingHorizontal": 14,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#F0A0D8",
+            "fontSize": 12,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Clear all
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 12,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#EDE8FF",
+                "height": 120,
+                "width": 100,
+              }
+            }
+          >
+            <Image
+              contentFit="cover"
+              source={
+                {
+                  "uri": "https://example.com/ring.jpg",
+                }
+              }
+              style={
+                {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+              transition={300}
+            />
+          </View>
+          <View
+            style={
+              {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "padding": 12,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                    "letterSpacing": 1,
+                    "marginBottom": 2,
+                  }
+                }
+              >
+                JEWELLERY
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                Amethyst Ring
+              </Text>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "gap": 4,
+                    "marginTop": 3,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#B0A8D9"
+                  name="time-outline"
+                  size={11}
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#B0A8D9",
+                      "fontSize": 11,
+                    }
+                  }
+                >
+                  Added 
+                  just now
+                </Text>
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 15,
+                    "fontWeight": "bold",
+                    "marginTop": 4,
+                  }
+                }
+              >
+                ₹
+                3,999
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "gap": 12,
+                  "marginTop": 8,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FDE8F5",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrement-j1"
+              >
+                <Ionicons
+                  color="#F0A0D8"
+                  name="trash-outline"
+                  size={16}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "minWidth": 20,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                1
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#7C5FFF",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increment-j1"
+              >
+                <Ionicons
+                  color="white"
+                  name="add"
+                  size={16}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FDE8F5",
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "right": 10,
+                "top": 10,
+                "width": 28,
+              }
+            }
+            testID="remove-j1"
+          >
+            <Ionicons
+              color="#F0A0D8"
+              name="close"
+              size={14}
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#EDE8FF",
+                "height": 120,
+                "width": 100,
+              }
+            }
+          >
+            <Image
+              contentFit="cover"
+              source={
+                {
+                  "uri": "https://example.com/dress.jpg",
+                }
+              }
+              style={
+                {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+              transition={300}
+            />
+          </View>
+          <View
+            style={
+              {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "padding": 12,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                    "letterSpacing": 1,
+                    "marginBottom": 2,
+                  }
+                }
+              >
+                APPAREL
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                Silk Wrap Dress
+              </Text>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "gap": 4,
+                    "marginTop": 3,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#B0A8D9"
+                  name="time-outline"
+                  size={11}
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#B0A8D9",
+                      "fontSize": 11,
+                    }
+                  }
+                >
+                  Added 
+                  just now
+                </Text>
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 15,
+                    "fontWeight": "bold",
+                    "marginTop": 4,
+                  }
+                }
+              >
+                ₹
+                4,500
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "gap": 12,
+                  "marginTop": 8,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FDE8F5",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrement-a1"
+              >
+                <Ionicons
+                  color="#F0A0D8"
+                  name="trash-outline"
+                  size={16}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "minWidth": 20,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                1
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#7C5FFF",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increment-a1"
+              >
+                <Ionicons
+                  color="white"
+                  name="add"
+                  size={16}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FDE8F5",
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "right": 10,
+                "top": 10,
+                "width": 28,
+              }
+            }
+            testID="remove-a1"
+          >
+            <Ionicons
+              color="#F0A0D8"
+              name="close"
+              size={14}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        2
+         
+        items
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        8,499
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#34D399",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        FREE
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        8,499
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Checkout · ₹
+        8,499
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Cart Screen — Snapshots renders cart with one item and paid delivery 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "flex-end",
+        "backgroundColor": "#F6F3FF",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        1
+         
+        item
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 28,
+            "fontWeight": "bold",
+            "letterSpacing": -0.5,
+          }
+        }
+      >
+        Cart
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#FDE8F5",
+          "borderRadius": 14,
+          "opacity": 1,
+          "paddingHorizontal": 14,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#F0A0D8",
+            "fontSize": 12,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Clear all
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 12,
+      }
+    }
+    showsVerticalScrollIndicator={false}
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "white",
+            "borderColor": "#EDE8FF",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "elevation": 3,
+            "marginBottom": 12,
+            "overflow": "hidden",
+            "shadowColor": "#7C5FFF",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.07,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#EDE8FF",
+                "height": 120,
+                "width": 100,
+              }
+            }
+          >
+            <Image
+              contentFit="cover"
+              source={
+                {
+                  "uri": "https://example.com/ring.jpg",
+                }
+              }
+              style={
+                {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+              transition={300}
+            />
+          </View>
+          <View
+            style={
+              {
+                "flex": 1,
+                "justifyContent": "space-between",
+                "padding": 12,
+              }
+            }
+          >
+            <View>
+              <Text
+                style={
+                  {
+                    "color": "#7C5FFF",
+                    "fontSize": 9,
+                    "fontWeight": "bold",
+                    "letterSpacing": 1,
+                    "marginBottom": 2,
+                  }
+                }
+              >
+                JEWELLERY
+              </Text>
+              <Text
+                numberOfLines={2}
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 14,
+                    "fontWeight": "600",
+                  }
+                }
+              >
+                Amethyst Ring
+              </Text>
+              <View
+                style={
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "gap": 4,
+                    "marginTop": 3,
+                  }
+                }
+              >
+                <Ionicons
+                  color="#B0A8D9"
+                  name="time-outline"
+                  size={11}
+                />
+                <Text
+                  style={
+                    {
+                      "color": "#B0A8D9",
+                      "fontSize": 11,
+                    }
+                  }
+                >
+                  Added 
+                  just now
+                </Text>
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 15,
+                    "fontWeight": "bold",
+                    "marginTop": 4,
+                  }
+                }
+              >
+                ₹
+                3,999
+              </Text>
+            </View>
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "gap": 12,
+                  "marginTop": 8,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#FDE8F5",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="decrement-j1"
+              >
+                <Ionicons
+                  color="#F0A0D8"
+                  name="trash-outline"
+                  size={16}
+                />
+              </View>
+              <Text
+                style={
+                  {
+                    "color": "#1E1B4B",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "minWidth": 20,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                1
+              </Text>
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#7C5FFF",
+                    "borderRadius": 10,
+                    "height": 30,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "width": 30,
+                  }
+                }
+                testID="increment-j1"
+              >
+                <Ionicons
+                  color="white"
+                  name="add"
+                  size={16}
+                />
+              </View>
+            </View>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#FDE8F5",
+                "borderRadius": 14,
+                "height": 28,
+                "justifyContent": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "right": 10,
+                "top": 10,
+                "width": 28,
+              }
+            }
+            testID="remove-j1"
+          >
+            <Ionicons
+              color="#F0A0D8"
+              name="close"
+              size={14}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#EDE8FF",
+        "borderTopLeftRadius": 28,
+        "borderTopRightRadius": 28,
+        "borderTopWidth": 1,
+        "elevation": 12,
+        "padding": 24,
+        "paddingBottom": 36,
+        "shadowColor": "#7C5FFF",
+        "shadowOffset": {
+          "height": -4,
+          "width": 0,
+        },
+        "shadowOpacity": 0.08,
+        "shadowRadius": 16,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Subtotal (
+        1
+         
+        item
+        )
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹
+        3,999
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#7C7CB0",
+            "fontSize": 13,
+          }
+        }
+      >
+        Delivery
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 13,
+            "fontWeight": "600",
+          }
+        }
+      >
+        ₹199
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#EDE8FF",
+          "height": 1,
+          "marginBottom": 14,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1E1B4B",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Total
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#7C5FFF",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ₹
+        4,198
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "elevation": 12,
+          "flexDirection": "row",
+          "gap": 8,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": "#7C5FFF",
+          "shadowOffset": {
+            "height": 8,
+            "width": 0,
+          },
+          "shadowOpacity": 0.4,
+          "shadowRadius": 16,
+        }
+      }
+    >
+      <Ionicons
+        color="white"
+        name="lock-closed-outline"
+        size={18}
+      />
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Checkout · ₹
+        4,198
+      </Text>
+    </View>
+    <Text
+      style={
+        {
+          "color": "#7C7CB0",
+          "fontSize": 12,
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add ₹
+      1,001
+       more for FREE delivery
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Cart Screen — Snapshots renders empty cart state 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#F6F3FF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#F6F3FF",
+        "paddingBottom": 16,
+        "paddingHorizontal": 20,
+        "paddingTop": 56,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#7C7CB0",
+          "fontSize": 13,
+        }
+      }
+    >
+      Your cart
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 28,
+          "fontWeight": "bold",
+          "letterSpacing": -0.5,
+        }
+      }
+    >
+      Cart
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingBottom": 80,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#EDE8FF",
+          "borderRadius": 40,
+          "height": 80,
+          "justifyContent": "center",
+          "marginBottom": 16,
+          "width": 80,
+        }
+      }
+    >
+      <Ionicons
+        color="#A78BFA"
+        name="cart-outline"
+        size={36}
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#1E1B4B",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 6,
+        }
+      }
+    >
+      Your cart is empty
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#7C7CB0",
+          "fontSize": 13,
+          "paddingHorizontal": 40,
+          "textAlign": "center",
+        }
+      }
+    >
+      Add items from the product page to see them here
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#7C5FFF",
+          "borderRadius": 20,
+          "marginTop": 24,
+          "opacity": 1,
+          "paddingHorizontal": 28,
+          "paddingVertical": 14,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Start Shopping
+      </Text>
+    </View>
+  </View>
+</View>
+`;
